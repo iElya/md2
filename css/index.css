@@ -139,7 +139,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 58px 49px 84px rgba(0, 0, 0, 0.09);
 
 }
 .blok2{
@@ -157,6 +156,7 @@
     float: left;
     color: #1F1F24;
     background-color: white;
+    box-shadow: 58px 49px 84px rgba(0, 0, 0, 0.09);
 }
 .e_text2 h1{
     font-family: 'Zilla Slab';
@@ -281,6 +281,12 @@
     border-radius: 33px;
     margin: 50px 0px 0px 480px;
     color: white;
+}
+.botttom{
+    width: 100%;
+    min-height: 300px;
+    float: left;
+    background-color: #27AE60;
 }
 .footer{
     width: 100%;
