@@ -53,8 +53,9 @@
     transition: 0.5s;
 }
 .section1{
+    position: relative;
     width: 100%;
-    min-height: 550px;
+    min-height: 650px;
     float: left;
     display: flex;
     justify-content: center;
@@ -105,16 +106,13 @@
 .social_i{
     position: absolute;
     bottom: 41px;
-    left: 90px;
+    left: 120px;
     width: 95px;
     height: 26px;
     float: left;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .social_i i{
-    padding: 0px 10px;
+    padding: 0px 5px;
     color: white;
 }
 .social_i i:hover{
@@ -123,6 +121,7 @@
     transition: 0.5s;
 }
 .section2{
+    position: relative;
     width: 100%;
     min-height: 800px;
     float: left;
@@ -130,7 +129,7 @@
 .blok1{
     position: absolute;
     margin-top: 100px;
-    left: 90px;
+    left: 120px;
     width: 650px;
     height: 502px;
     float: left;
@@ -145,7 +144,7 @@
     width: 650px;
     height: 500px;
     float: right;
-    margin: 200px 100px 0px 0px;
+    margin: 200px 130px 0px 0px;
     background-image: url("../img/Rectangle\ 55.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -181,6 +180,11 @@
     width: 100%;
     min-height: 700px;
     float: left;
+}
+.e_blokkss{
+    width: 100%;
+    float: left;
+    min-height: 600px;
 }
 .recipes{
     width: 100%;
@@ -279,7 +283,7 @@
     height: 50px;
     background: #27AE60;
     border-radius: 33px;
-    margin: 50px 0px 0px 480px;
+    margin: 40px 0px 0px 470px;
     color: white;
 }
 .botttom{
@@ -358,3 +362,241 @@
     border-right: 1px solid white;
 }
 
+
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .logo{
+        width: 100%;
+        min-height: 150px;
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu{
+        display: none;
+    }
+    .section1{
+        width: 100%;
+        min-height: 600px;
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .e_text{
+        width: 301px;
+        height: 129px;
+        float: left;
+        margin-bottom: 150px;
+    }
+    .e_text h1{
+        font-family: 'Zilla Slab';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 155%;
+        /* or 43px */
+        text-align: center;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        text-shadow: 0px 3px 37px rgba(0, 0, 0, 0.25);
+    }
+    .social_i{
+        display: none;
+    }
+    .icon_l{
+        width: 36px;
+        height: 36px;
+        float: left;
+        position: absolute;
+        z-index: 5;
+        bottom: 60px;
+        left: 140px;
+        
+    }
+    .icon_l span i{
+        color: white;
+    }
+    .icon_r{
+        width: 36px;
+        height: 36px;
+        float: left;
+        position: absolute;
+        z-index: 5;
+        bottom: 60px;
+        right: 140px;
+    }
+    .icon_r span i{
+        color: white;
+    }
+    .icon_l span , .icon_r span:hover{
+        cursor: pointer;
+    }
+    .section2{
+        position: relative;
+        width: 100%;
+        min-height: 800px;
+        float: left;
+    }
+    .blok1{
+        position: absolute;
+        margin-top: 20px;
+        left: 90px;
+        width: 350px;
+        height: 502px;
+        float: left;
+        z-index: 5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #FFFFFF;
+    }
+    .blok2{
+        position: absolute;
+        left: 90px;
+        top: -70px;
+        width: 349px;
+        height: 215px;
+        z-index: 10;
+        float: left;
+        background-image: url("../img/Rectangle\ 55.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .e_text2{
+        width: 550px;
+        height: 400px;
+        float: left;
+        color: #1F1F24;
+        background-color: white;
+        box-shadow: 58px 49px 84px rgb(255, 255, 255);
+    }
+    .e_text2 h1{
+        padding-bottom: 220px;
+        font-family: 'Zilla Slab';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+        color: #1F1F24;
+
+    }
+    .e_text2 p{
+        font-family: 'Zilla Slab';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 160.5%;
+        /* or 26px */
+        /* Gray 1 */
+        color: #333333;
+        opacity: 0.5;
+    }
+    .section3{
+        width: 100%;
+        min-height: 700px;
+        float: left;
+    }
+    .e_blokkss{
+        width: 100%;
+        float: left;
+        min-height: 600px;
+    }
+    .recipes{
+        width: 100%;
+        min-height: 80px;
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .l_line{
+       display: none;
+    }
+    
+    .c_text{
+        width: 50%;
+        min-height: 80px;
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .c_text h1{
+        font-family: 'Zilla Slab';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+        /* identical to box height */
+        text-align: center;
+        color: #3E3E3E;
+
+    }
+    .r_line{
+        display: none;
+    }
+    .e_blok1 , .e_blok2 , .e_blok3{
+        margin-left: 60px;
+    }
+    .btn{
+        margin-left: 145px;
+        margin-bottom: 40px;
+    }
+    .footer , .botttom{
+        display: none;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
