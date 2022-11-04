@@ -106,7 +106,7 @@
 .social_i{
     position: absolute;
     bottom: 41px;
-    left: 120px;
+    left: 180px;
     width: 95px;
     height: 26px;
     float: left;
@@ -129,7 +129,7 @@
 .blok1{
     position: absolute;
     margin-top: 100px;
-    left: 120px;
+    left: 250px;
     width: 650px;
     height: 502px;
     float: left;
